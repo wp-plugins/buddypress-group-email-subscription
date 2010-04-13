@@ -2,6 +2,7 @@
 
 require_once( WP_PLUGIN_DIR.'/buddypress-group-email-subscription/bp-activity-subscription-functions.php' );
 
+
 /****************************************************************************************************************
  *																												*
  * This extension allows users to turn activity stream update notifications on/off								*

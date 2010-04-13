@@ -16,7 +16,7 @@ $crons = _get_cron_array();
 	echo "</div>";
 	
 }
-add_action( 'wp_head', 'ass_digest_schedule_print' );
+//add_action( 'wp_head', 'ass_digest_schedule_print' );
 
 
 /* Digest-specific functions */

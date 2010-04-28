@@ -1,6 +1,6 @@
 <?php
 /* This is for local testing only!! */
-date_default_timezone_set('America/New_York');
+//date_default_timezone_set('America/New_York');
 
 /* This function was used for debugging the digest scheduling features */
 function ass_digest_schedule_print() {	
@@ -18,7 +18,7 @@ $crons = _get_cron_array();
 	echo "</div>";
 	
 }
-add_action( 'wp_head', 'ass_digest_schedule_print' );
+//add_action( 'wp_head', 'ass_digest_schedule_print' );
 
 
 /* Digest-specific functions */
@@ -70,7 +70,7 @@ function ass_digest_fire( $type = 'dig' ) {
 				// Set up and send the message
 				$to = $ud->user_email;
 				//print_r($to); die();
-		print_r( $message ); die();
+		//print_r( $message ); die();
 				wp_mail( $to, $subject, $message );
 		
 				unset( $message, $to );

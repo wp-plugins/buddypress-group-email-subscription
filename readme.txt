@@ -54,7 +54,7 @@ TRANSLATORS
 - italian - Stefano Russo
 - french - http://www.claudegagne-photo.com
 - brazilian portuguese - www.about.me/dennisaltermann (or www.congregacao.net)
-- dutch - Anja werkgroepen.net/wordpress
+- dutch - Anja werkgroepen.net/wordpress, Tim de Hoog
 - swedish - Thomas Schneider
 - german - Peter Peterson
 - russian - http://www.viaestvita.net/groups/
@@ -88,6 +88,10 @@ Other supporters: bluedotproductions.com
 7. Admin Settings
 
 == Changelog ==
+
+= 3.3.2 =
+Updated nl_NL translation
+Fixed some textdomains
 
 = 3.3.1 =
 Fixes a bug that caused duplicate bbPress 2.x digest notifications
